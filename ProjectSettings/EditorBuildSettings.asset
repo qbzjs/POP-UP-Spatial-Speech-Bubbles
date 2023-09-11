@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/ARDKExamples/VpsCoverage/VpsCoverageListExample.unity
+    guid: 6f69a0dede5c14986bb7d2591de029c8
+  - enabled: 0
+    path: Assets/ARDKExamples/VpsCoverage/VpsCoverageExample.unity
+    guid: 138112bde976c40c6833cbf125ab73e0
+  - enabled: 1
+    path: Assets/Scenes/ARScene.unity
+    guid: 896f0cdd6c0304258a0b164d2e41522c
+  - enabled: 0
+    path: Assets/Scenes/New Scene 1.unity
+    guid: 17db3e957c9cd41508bc8af668c5db2c
+  m_configObjects: {}

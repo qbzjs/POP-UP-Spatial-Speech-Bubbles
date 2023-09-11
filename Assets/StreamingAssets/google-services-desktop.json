@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "140686545810",
+    "project_id": "unityvps-5a508",
+    "storage_bucket": "unityvps-5a508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140686545810:android:a7d757ba6c60f4298e674b",
+        "android_client_info": {
+          "package_name": "com_ARDKVPS.choki0405"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140686545810-tpjqavs5d4uhpptmei7n9flji29uips5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ZAFONyNBk_03adlRGktgBvTyxhTyRo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140686545810-tpjqavs5d4uhpptmei7n9flji29uips5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "140686545810-cd6h3ulueto9mqgth17929uktejs7fua.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.choki.ARDK-VPS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

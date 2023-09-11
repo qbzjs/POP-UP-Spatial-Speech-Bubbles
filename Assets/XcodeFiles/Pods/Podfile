@@ -1,0 +1,23 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '11.0'
+
+target 'UnityFramework' do
+  pod 'Firebase/Core', '10.0.0'
+  pod 'Firebase/Firestore', '10.0.0'
+end
+target 'Unity-iPhone' do
+end
+use_frameworks! :linkage => :static
+
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+      target.build_configurations.each do |config|
+        config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+  end
+end
+
